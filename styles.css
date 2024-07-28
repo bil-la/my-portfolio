@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background 0.3s;
+}
+
+.header nav a:hover {
+    background: #444;
+}
+
+section {
+    margin-top: 80px;
+    padding: 2em;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.buttons a:hover {
+    background: #444;
+}
+
+.project, .education, .interests, .technical-skills, .soft-skills, .contact form {
+    text-align: left;
+    margin: 2em 0;
+}
+
+.contact form {
+    display: inline-block;
+    text-align: left;
+}
